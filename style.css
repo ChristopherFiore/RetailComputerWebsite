@@ -1,14 +1,25 @@
 .navbar {
     background-color: #091972;
     height: 80px;
+    width: 100%;
+    margin-top: -16px;
+}
+
+body {
+    margin: 0;
 }
 
 .navdiv a{
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 26px;
     text-decoration: none;
-    font-size: 40px;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navdiv ul {
+    list-style: none;
 }
 
 .navdiv li {
