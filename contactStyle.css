@@ -35,3 +35,51 @@
 .mailimage:hover {
     transform: scale(1.2);
 }
+
+.instantmail {
+    margin-left: 42vw;
+    margin-top: -75vh;
+    background-color: #091972;
+    width: 40vw;
+    height: 60vh;
+    box-shadow: 10px 10px black;
+}
+
+.instantmail h1 {
+    color: white;
+    padding-top: 2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fnamebox {
+    margin-left: 4vw;
+    width: 15vw;
+    height: 5vh;
+    background-color: white;
+}
+
+.lnamebox {
+    margin-left: 21vw;
+    margin-top: -5vh;
+    width: 15vw;
+    height: 5vh;
+    background-color: white;
+}
+
+.emailbox {
+    margin-left: 4vw;
+    margin-top: 3vh;
+    width: 32vw;
+    height: 5vh;
+    background-color: white;
+}
+
+.questionbox {
+    margin-left: 4vw;
+    margin-top: 3vh;
+    width: 32vw;
+    height: 24vh;
+    background-color: white;
+}
