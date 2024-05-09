@@ -1,0 +1,21 @@
+.content_container {
+    display: flex;
+}
+
+.leftborder {
+    background-color: rgb(17, 137, 174);
+    width: 15vw;
+    height: 200vh;
+}
+
+.rightborder {
+    background-color: rgb(17, 137, 174);
+    width: 15vw;
+    height: 200vh;
+}
+
+.laptopcontainer {
+    height: 200vh;
+    width: 70vw;
+    background-color: rgb(221, 214, 214);
+}

@@ -1,7 +1,7 @@
 .navbar {
     background-color: #091972;
     height: 70px;
-    width: 100%;
+    width: 100;
     margin-top: -16px;
 }
 
@@ -51,7 +51,8 @@ body {
 .aboutbox h1 {
     color: #ffffff;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
     justify-content: center;
     text-align: center;
 }
