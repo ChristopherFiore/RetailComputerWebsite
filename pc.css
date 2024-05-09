@@ -1,31 +1,50 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .content_container {
+    display: flex;
+}
+
+.pcInfoContainer {
+    display: block;
+}
+
+.pcsContent {
     display: flex;
 }
 
 .leftborder {
     background-color: rgb(17, 137, 174);
     width: 15vw;
-    height: 156vh;
+    height: 180vh;
 }
 
 .rightborder {
     background-color: rgb(17, 137, 174);
     width: 15vw;
-    height: 156vh;
+    height: 180vh;
 }
 
-.pccontainer {
+.pccontainerLeft {
     display: block;
     height: 156vh;
-    width: 70vw;
+    width: 35vw;
+    background-color: rgb(221, 214, 214);
+}
+
+.pccontainerRight {
+    display: block;
+    height: 156vh;
+    width: 35vw;
     background-color: rgb(221, 214, 214);
 }
 
 .informationbox {
     background-color: #1d296f;
     margin: 40px;
-    width: 63vw;
-    height: 10vh;
+    width: 65vw;
+    height: 12vh;
     text-align: center;
     color: white;
     font-size: 16px;
@@ -37,6 +56,7 @@
     width: 30vw;
     height: 40vh;
     position: relative;
+    border-radius: 1%;
 }
 
 .pcnamebox {
@@ -44,17 +64,51 @@
     width: 100%;
     height: 15%;
     position: absolute;
+    border-radius: 4%;
     font-size: 30px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
 }
 
-.addtocartbutton {
-    background-color: #0d9c27;
+.addtocartbutton input {
+    background-color: #b8c5ba;
     position: absolute;
     height: 12%;
     width: 50%;
     bottom: 0;
     right: 0;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    /* Code to animate button */
+    box-shadow: inset 0 0 0 0 rgb(2, 79, 14);
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.addtocartbutton input:hover {
+    box-shadow: inset 15vw 0 0 0 rgb(2, 79, 14);
+    color: white;
+    cursor: pointer;
+}
+
+.pcprice {
+    background-color: rgb(14, 41, 150);
+    position: absolute;
+    border-radius: 4%;
+    height: 12%;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    line-height: 32px;
 }

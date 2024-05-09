@@ -1,0 +1,29 @@
+* {
+}
+
+.faqClassContainer {
+    position: relative;
+}
+
+.questionContainer {
+    display: block;
+}
+
+.questionBox {
+    background-color: #1d296f;
+    margin: 40px;
+    width: 80vw;
+    height: 20vh;
+}
+
+.informationBox {
+    background-color: #1d296f;
+    margin: 40px;
+    margin-left: 220px;
+    width: 64vw;
+    height: 12vh;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+}
