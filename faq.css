@@ -7,18 +7,26 @@
 
 .questionContainer {
     display: block;
+    margin: 40px;
 }
 
 .questionBox {
+    background-color: rgb(17, 137, 174);
+    margin: 0px;
+    width: 50vw;
+    height: 8vh;
+}
+
+.answerBox {
     background-color: #1d296f;
-    margin: 40px;
+    margin: 0px;
     width: 80vw;
     height: 20vh;
 }
 
 .informationBox {
     background-color: #1d296f;
-    margin: 40px;
+    margin: 4vw;
     margin-left: 220px;
     width: 64vw;
     height: 12vh;
