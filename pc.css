@@ -47,7 +47,7 @@
     height: 12vh;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 1.6vw;
 }
 
 .pcbox {
@@ -65,7 +65,7 @@
     height: 15%;
     position: absolute;
     border-radius: 4%;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
     text-align: center;
     font-weight: 800;
