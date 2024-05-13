@@ -1,5 +1,12 @@
-document.addEventListener("DOMContentLoaded",function() {
-    var fnameBox = document.getElementById("fname");
-    fnameBox.addEventListener("click", function() {
-    });
-});
+// ---COUNT WHEN ADDING TO CART--
+var itemCount = 0;
+document.getElementById("counter").textContent=itemCount;
+
+function IncrementCartCount() {
+    itemCount = itemCount + 1;
+    UpdateCountDisplay(); 
+}
+
+function UpdateCountDisplay() {
+    document.getElementById("counter").innerHTML=itemCount;
+}

@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="pc.css">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/a54836cba5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,8 +20,10 @@
                 <li><a class="cart" href="cart.html">CART</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
+            <h1 class="counter"></h1>
         </div>
     </nav>
+    <h1 id="counter"></h1>
     <div class="content_container">
         <!--LEFT BORDER-->
         <div class="leftborder"></div>
@@ -33,7 +36,7 @@
                     <div class="pcbox">
                         <div class="pcnamebox">WORKSTATION</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="IncrementCartCount()">
                         </div>
                         <div class="pcprice">$1000</div>
                     </div>

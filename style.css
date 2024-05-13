@@ -12,6 +12,17 @@ body {
     background-color: rgb(221, 214, 214);
 }
 
+#counter {
+    font-size: 1.5vw;
+    color: rgb(207, 137, 44);
+    position: absolute;
+    top: -2%;
+    left: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .navbar .navdiv .cart {
     color: white;
     font-size: 1.6vw;
@@ -20,7 +31,7 @@ body {
 .navbar .navdiv .login {
     color: white;
     font-size: 1.6vw;
-    margin-left: 16vw;
+    margin-left: 10vw;
 }
 
 #cartIcon {
