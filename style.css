@@ -10,6 +10,7 @@
 body {
     margin: 0;
     background-color: rgb(221, 214, 214);
+    overflow-x: hidden;
 }
 
 #counter {
@@ -17,8 +18,7 @@ body {
     color: rgb(207, 137, 44);
     position: absolute;
     top: -2%;
-    left: 90%;
-    background-color: rgb(255, 255, 255);
+    left: 91%;
     border-radius: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

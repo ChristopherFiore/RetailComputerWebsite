@@ -1,0 +1,53 @@
+.loginContainer {
+    display: block;
+    width: 100vw;
+    height: 93vh;
+    background-color: rgb(221, 214, 214);
+}
+
+.loginImage {
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#loginImage {
+    height: auto;
+    width: 16%;
+    border-radius: 20%;
+}
+
+.logoBox {
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.logoBox i {
+    margin: 6px;
+}
+
+.logoBox i:hover {
+    cursor: pointer;
+}
+
+.outsideLogin {
+    width: 30%;
+    height: 70%;
+    background-color: #1d296f;
+}
+
+.signInBox {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
