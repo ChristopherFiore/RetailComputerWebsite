@@ -97,6 +97,7 @@ body {
     height: 70vh;
     width: 50vw;
     margin: 60px;
+    padding-left: 20px;
     box-shadow: 10px 10px;
 }
 
@@ -111,11 +112,10 @@ body {
 
 .aboutbox p1 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     text-align: center;
-    vertical-align: middle;
 }
 
 .homeimg {
