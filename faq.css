@@ -1,9 +1,10 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
     background-color: #F2E3D5;
+    color: #F2E3D5;
 }
 
 .faqClassContainer {
@@ -16,34 +17,42 @@ body {
 }
 
 .questionBox {
-    background-color: rgb(17, 137, 174);
+    background-color: #3CA6A6;
     margin: 0px;
     width: 50vw;
     height: 8vh;
-    color: white;
-    font-size: 1.5vw;
+    min-height: 50px;
+    font-size: 1.6vw;
     text-align: center;
-    text-decoration: underline;
     justify-content: center;
-    font-weight: bolder;
+    font-weight: 700;
     line-height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
 }
 
 .answerBox {
-    background-color: #1d296f;
+    background-color: #024959;
     margin: 0px;
     width: 80vw;
     height: 20vh;
+    min-height: 140px;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
 }
 
 .informationBox {
-    background-color: #1d296f;
+    background-color: #3CA6A6;
     margin: 4vw;
     margin-left: 18vw;
     width: 64vw;
     height: 12vh;
-    text-align: center;
-    color: white;
-    font-size: 1.5vw;
+    min-height: 80px;
+    font-size: 1.6vw;
     justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
 }

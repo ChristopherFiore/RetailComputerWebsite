@@ -11,19 +11,17 @@
     <nav class="navbar">
         <div class="navdiv">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a class="active" href="pcs.html">PC'S</a></li>
-                <li><a href="laptops.html">LAPTOPS</a></li>
-                <li><a href="faqs.html">FAQ'S</a></li>
-                <li><a class="login" href="login.html">LOGIN</a></li>
-                <li><a class="cart" href="cart.html">CART</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="pcs.html">Pc's</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="faqs.html">Faq's</a></li>
+                <li><a id="loginNav" class="active" href="login.html">Login</a></li>
+                <li><a class="cart" href="cart.html">Cart</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
-            <h1 class="counter"></h1>
         </div>
     </nav>
-    <h1 id="counter"></h1>
     <div class="content_container">
         <!--LEFT BORDER-->
         <div id="leftBorder" class="leftborder"></div>
@@ -38,7 +36,7 @@
                             <input type="button" value="Add to Cart" onclick="IncrementCartCount()">
                         </div>
                         <div class="pcprice">$1000</div>
-                        <img id="pcImage1" src="images/transparentPC-removebg-preview.png">
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Student</div>
@@ -46,6 +44,7 @@
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$1200</div>
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">General</div>
@@ -53,6 +52,7 @@
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$900</div>
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                 </div>
                 <!-- RIGHT HAND COLUMN OF PC's-->
@@ -63,6 +63,7 @@
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$970</div>
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Famliy Computer</div>
@@ -70,6 +71,7 @@
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$1100</div>
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Elite Gaming</div>
@@ -77,11 +79,13 @@
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$1800</div>
+                        <img id="pcImage1" src="images/pcImage.png">
                     </div>
                 </div>
                 </div>
             </div>
-        <div id="rightborder" class="rightborder"></div>
+        <div id="rightBorder" class="rightborder"></div>
     </div>
+    <script>Resize()</script>
 </body>
 </html>

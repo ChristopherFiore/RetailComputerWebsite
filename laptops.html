@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="pc.css">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/a54836cba5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -10,75 +11,81 @@
     <nav class="navbar">
         <div class="navdiv">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="pcs.html">PC'S</a></li>
-                <li><a class="active" href="laptops.html">LAPTOPS</a></li>
-                <li><a href="faqs.html">FAQ'S</a></li>
-                <li><a class="login" href="login.html">LOGIN</a></li>
-                <li><a class="cart" href="cart.html">CART</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pcs.html">Pc's</a></li>
+                <li><a class="active" href="laptops.html">Laptops</a></li>
+                <li><a href="faqs.html">Faq's</a></li>
+                <li><a id="loginNav" class="active" href="login.html">Login</a></li>
+                <li><a class="cart" href="cart.html">Cart</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
         </div>
     </nav>
     <div class="content_container">
         <!--LEFT BORDER-->
-        <div class="leftborder"></div>
+        <div id="leftBorder" class="leftborder"></div>
         <!--CONTAINER TO ORDER INFORMATION BOX AND PC CONTAINERS-->
         <div class="pcInfoContainer">
-            <div class="informationbox">Welcome to the Laptop page. See our various options below to choose a Laptop for you. If you can't find something below, feel free to visit to FAQ's page or don't hesitate to get in contact with us via the CONTACT page</div>
-            <div class="pcsContent">
+            <div id="pc" class="pcsContent" func>
                 <!--LEFT HAND COLUMN OF PC's-->
-                <div class="pccontainerLeft">
+                <div id="pcLeft" class="pccontainerLeft">
                     <div class="pcbox">
-                        <div class="pcnamebox">WORKSTATION LAPTOP</div>
+                        <div class="pcnamebox">Workstation</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="IncrementCartCount()">
                         </div>
-                        <div class="pcprice">$1100</div>
+                        <div class="pcprice">$1000</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
                     </div>
                     <div class="pcbox">
-                        <div class="pcnamebox">ELITE GAMING</div>
-                        <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
-                        </div>
-                        <div class="pcprice">$1900</div>
-                    </div>
-                    <div class="pcbox">
-                        <div class="pcnamebox">FAMILY</div>
+                        <div class="pcnamebox">Student</div>
                         <div class="addtocartbutton">
                             <input type="button" value="Add to Cart">
                         </div>
                         <div class="pcprice">$1200</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
+                    </div>
+                    <div class="pcbox">
+                        <div class="pcnamebox">General</div>
+                        <div class="addtocartbutton">
+                            <input type="button" value="Add to Cart">
+                        </div>
+                        <div class="pcprice">$900</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
                     </div>
                 </div>
                 <!-- RIGHT HAND COLUMN OF PC's-->
-                <div class="pccontainerRight">
+                <div id="pcRight" class="pccontainerRight">
                     <div class="pcbox">
-                        <div class="pcnamebox">GENERAL OFFICE USE</div>
+                        <div class="pcnamebox">General Office Use</div>
                         <div class="addtocartbutton">
                             <input type="button" value="Add to Cart">
                         </div>
-                        <div class="pcprice">$1000</div>
+                        <div class="pcprice">$970</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
                     </div>
                     <div class="pcbox">
-                        <div class="pcnamebox">UNI STUDENT</div>
+                        <div class="pcnamebox">Famliy Computer</div>
                         <div class="addtocartbutton">
                             <input type="button" value="Add to Cart">
                         </div>
-                        <div class="pcprice">$1000</div>
+                        <div class="pcprice">$1100</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
                     </div>
                     <div class="pcbox">
-                        <div class="pcnamebox">SCHOOL</div>
+                        <div class="pcnamebox">Elite Gaming</div>
                         <div class="addtocartbutton">
                             <input type="button" value="Add to Cart">
                         </div>
-                        <div class="pcprice">$800</div>
+                        <div class="pcprice">$1800</div>
+                        <img id="laptopImage1" src="images/laptopImage.png">
                     </div>
                 </div>
                 </div>
             </div>
-        <div class="rightborder"></div>
+        <div id="rightBorder" class="rightborder"></div>
     </div>
+    <script>Resize()</script>
 </body>
 </html>

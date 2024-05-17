@@ -11,8 +11,9 @@ function UpdateCountDisplay() {
 }
 
 // ---CODE FOR FLEX DIRECTION WHEN RESIZING
-window.addEventListener('resize', function(event){
+window.addEventListener('resize',Resize);
     //  Variables
+function Resize() {
     var screenWidth = window.innerWidth;
     var leftColumn = document.getElementById("pcLeft");
     var rightColumn = document.getElementById("pcRight");
@@ -22,10 +23,27 @@ window.addEventListener('resize', function(event){
     // Functionality
     if (screenWidth < parseInt("800px", 10)) {
         document.getElementById("pc").style.flexDirection = "column";
-        leftColumn.style.width = "60vw";
-        leftBorder.style.width = "20vw";
-        rightBorder.style.width = "20vw";
+        leftColumn.style.width = "70vw";
+        rightColumn.style.width = "70vw";
+        // Left Border
+        leftBorder.style.width = "15vw";
+        leftBorder.style.height = "300vh";
+        leftBorder.style.minHeight = "2100px";
+        // Right Border
+        rightBorder.style.width = "15vw";
+        rightBorder.style.height = "300vh";
+        rightBorder.style.minHeight = "2100px"
     } else {
         document.getElementById("pc").style.flexDirection = "row";
+        leftColumn.style.width = "30vw";
+        rightColumn.style.width = "30vw";
+        // Left Border
+        leftBorder.style.width = "15vw";
+        leftBorder.style.height = "150vh";
+        leftBorder.style.minHeight = "1000px";
+        // Right Border
+        rightBorder.style.width = "15vw";
+        rightBorder.style.height = "150vh";
+        rightBorder.style.minHeight = "1000px"
     }
-});
+};
