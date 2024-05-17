@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a class="active" href="pcs.html">Pc's</a></li>
+                <li><a class="active" href="pcs.html">PC's</a></li>
                 <li><a href="laptops.html">Laptops</a></li>
                 <li><a href="faqs.html">Faq's</a></li>
                 <li><a id="loginNav" class="active" href="login.html">Login</a></li>
@@ -30,10 +30,10 @@
             <div id="pc" class="pcsContent" func>
                 <!--LEFT HAND COLUMN OF PC's-->
                 <div id="pcLeft" class="pccontainerLeft">
-                    <div class="pcbox">
+                    <div id="pcBox1" class="pcbox">
                         <div class="pcnamebox">Workstation</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart" onclick="IncrementCartCount()">
+                            <input type="button" value="Add to Cart" onclick="ChangePcBoxClass()">
                         </div>
                         <div class="pcprice">$1000</div>
                         <img id="pcImage1" src="images/pcImage.png">

@@ -10,6 +10,32 @@ function UpdateCountDisplay() {
     document.getElementById("counter").innerHTML = itemCount;
 }
 
+// ---FUNCTIONAILTY WHEN ADDING ITEM TO CART---
+function ChangePcBoxClass() {
+    document.getElementById("pcImage1").src = "images/addedToCart.png";
+    // Keep here for 2 seconds
+    setTimeout(() => { document.getElementById("pcImage1").src = "images/pcImage.png";
+ }, 2000)
+}
+
+// ---CHANGING IMAGE TO GIF---
+function ImgToGif() {
+    document.getElementById("pcGif").src = "images/pcGif.gif";
+    document.getElementById("pcGif").style.transform = "scale(1.1,1.1)";
+    document.getElementById("pcGif").style.cursor = "pointer";
+}
+function GifToImg() {
+    document.getElementById("pcGif").src = "images/pcGif.png";
+    document.getElementById("pcGif").style.transform = "scale(1,1)";
+}
+function LaptopEnhance() {
+    document.getElementById("laptopGif").style.transform = "scale(1.1,1.1)";
+    document.getElementById("laptopGif").style.cursor = "pointer";
+}
+function LaptopDehance() {
+    document.getElementById("laptopGif").style.transform = "scale(1,1)";
+}
+
 // ---CODE FOR FLEX DIRECTION WHEN RESIZING
 window.addEventListener('resize',Resize);
     //  Variables

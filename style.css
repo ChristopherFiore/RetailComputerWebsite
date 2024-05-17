@@ -77,12 +77,13 @@ body {
 
 .contentContainer {
     position: relative;
-    display: flex;
+    display: block;
 }
 
 .aboutContainer {
-    width: 50vw;
-    display: block;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -90,21 +91,23 @@ body {
 }
 
 .images {
-    position: relative;
+    display: flex;
+    height: 52vh;
+    width: 60vw;
     margin-left: 20vw;
-    margin-top: 10vh;
-    height: 70vh;
-    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .aboutbox {
     background-color: #024959;
-    height: 70vh;
-    width: 50vw;
-    margin: 60px;
-    padding-left: 20px;
+    height: 80%;
+    width: 80%;
     border-radius: 20px;
     box-shadow: 0px 0px 8px 2px  rgba(0, 0, 0, 0.404);
+    overflow-y: auto;
 }
 
 .aboutbox h1 {
@@ -115,24 +118,25 @@ body {
 .aboutbox p1 {
     font-size: 20px;
     color: white;
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 30px;
     justify-content: center;
     text-align: center;
 }
 
 .homeimg {
     width: 16vw;
-    height: auto; 
-    position: absolute;
+    height: 16vw; 
     mix-blend-mode: normal;
     border-radius: 40px;
     background-color: #024959;
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.531);
 }
 
-#pc1 {
-    top: 55%;
+#pc1,
+#pc2 {
+    min-width: 150px;
+    min-height: 150px;
 }
 
-#pc2 {
-    bottom: 55%;
-}
