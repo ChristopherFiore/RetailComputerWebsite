@@ -1,138 +1,117 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.discordimage {
-    margin-left: 10%;
-    margin-top: 4%;
-    width: 18vw;
-    height: auto;
-    transition: transform 0.5s ease-out;
+body {
+    background-color: #F2E3D5;
+    color: #F2E3D5;
 }
 
-.discordimage:hover {
-    transform: scale(1.2);
-}
-
-.instaimage {
-    margin-left: 14%;
+.contactConatiner {
     display: block;
-    margin-top: 4%;
-    width: 10%;
-    transition: transform 0.5s ease-out;
 }
 
-.instaimage:hover {
-    transform: scale(1.2);
+.mailContainer {
+    width: 100vw;
+    height: 64vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
 }
 
-.mailimage {
-    margin-left: 11.7%;
-    display: block;
-    margin-top: 2%;
-    width: 14%;
-    transition: transform 0.5s ease-out;
-}
-
-.mailimage:hover {
-    transform: scale(1.2);
+.imagesContainer {
+    width: 50vw;
+    margin-left: 25vw;
+    height: 23vh;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
 .instantmail {
-    margin-left: 42%;
-    margin-top: -38%;
-    background-color: #1d296f;
-    width: 40vw;
-    height: 60vh;
-    box-shadow: 10px 10px black;
+    position: relative;
+    background-color: #024959;
+    width: 40%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.432);
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 
 .instantmail h1 {
-    color: white;
-    padding-top: 2vh;
+    position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 30px;
 }
 
-.fnamebox {
-    margin-left: 4vw;
-    width: 15vw;
-    height: 5vh;
-    background-color: white;
-}
-
 .fnamebox input {
     text-align: left;
-    width: 91%;
-    height: 84%;
+    position: absolute;
+    width: 36%;
+    height: 8%;
+    top: 20%;
+    left: 10%;
     color: black;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 6%;
-}
-
-.lnamebox {
-    margin-left: 21vw;
-    margin-top: -5vh;
-    width: 15vw;
-    height: 5vh;
-    background-color: white;
+    padding-left: 2%;
 }
 
 .lnamebox input {
+    position: absolute;
     text-align: left;
-    width: 91%;
-    height: 84%;
+    width: 36%;
+    height: 8%;
+    top: 20%;
+    left: 52%;
     color: black;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 6%;
+    padding-left: 2%;
 
-}
-
-.emailbox {
-    margin-left: 4vw;
-    margin-top: 3vh;
-    width: 32vw;
-    height: 5vh;
-    background-color: white;
 }
 
 .emailbox input {
     text-align: left;
-    width: 96%;
-    height: 84%;
+    position: absolute;
+    width: 78%;
+    height: 8%;
+    top: 32%;
+    left: 10%;
     color: black;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 3%;
-}
-
-.questionbox {
-    margin-left: 4vw;
-    margin-top: 3vh;
-    width: 32vw;
-    height: 24vh;
-    background-color: white;
+    padding-left: 2%;
 }
 
 .questionbox input {
     text-align: left;
-    width: 96%;
-    height: 97%;
+    position: absolute;
+    width: 78%;
+    height: 40%;
+    top: 44%;
+    left: 10%;
     color: black;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 .submitbutton input {
     background-color: azure;
-    width: 10vw;
-    height: 5vh;
-    margin-top: 2%;
-    margin-left: 10%;
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 10%;
+    top: 88%;
     border-radius: 6px;
     color: black;
     font-weight: bold;
@@ -143,7 +122,24 @@
 }
 
 .submitbutton input:hover {
-    box-shadow: inset 10vw 0 0 0 rgb(2, 79, 14);
+    box-shadow: inset 12vw 0 0 0 rgb(2, 79, 14);
     color: white;
     cursor: pointer;
+}
+
+#contactIcon {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.404);
+    color: beige;
+    border-radius: 50%;
+    background-color: #024959;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transform: scale(2, 2);
+}
+
+#contactIcon:hover {
+    color: #3CA6A6;
 }

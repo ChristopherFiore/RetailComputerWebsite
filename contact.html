@@ -22,34 +22,40 @@
             </ul>
         </div>
     </nav>
-    <a href="https://discord.com" target="_blank">
-        <img class="discordimage" src="images/discordTransparent.png">
-    </a>
-    <a href="https://instagram.com" target="_blank">
-        <img class="instaimage" src="images/instagramtransparent.png">
-    </a>
-    <a href="mailto::support@simplePC's.com" target="_blank">
-        <img class="mailimage" src="images/mailTransparent.png">
-    </a>
-    <nav class="instantmail">
-        <h1>
-            Contact Us 
-        </h1>
-        <div id="fname" class="fnamebox">
-            <input type="text" placeholder="First Name">
+    <div class="contactContainer">
+        <div class="mailContainer">
+            <nav class="instantmail">
+                <h1>
+                    Contact Us 
+                </h1>
+                <div id="fname" class="fnamebox">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="lnamebox">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="emailbox">
+                    <input type="text" placeholder="e-mail">
+                </div>
+                <div class="questionbox">
+                    <input type="text" placeholder="How can we help you?">
+                </div>
+                <div class="submitbutton">
+                    <input type="button" value="Submit">
+                </div>
+            </nav>
         </div>
-        <div class="lnamebox">
-            <input type="text" placeholder="Last Name">
+        <div class="imagesContainer">
+            <a href="https://discord.com" target="_blank">
+                <i id="contactIcon" class="fa-brands fa-discord fa-2xl"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i id="contactIcon" class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a href="mailto::support@simplePC's.com" target="_blank">
+                <i id="contactIcon" class="fa-regular fa-envelope fa-2xl"></i>
+            </a>
         </div>
-        <div class="emailbox">
-            <input type="text" placeholder="e-mail">
-        </div>
-        <div class="questionbox">
-            <input type="text" placeholder="How can we help you?">
-        </div>
-        <div class="submitbutton">
-            <input type="button" value="Submit">
-        </div>
-    </nav>
+    </div>
 </body>
 </html>

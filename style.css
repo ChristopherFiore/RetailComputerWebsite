@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #091972;
+    background-color:#012E40;
     height: 7vh;
     width: 100vw;
     display: flex;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar .navdiv .cart {
-    color: white;
+    color: #F2E3D5;
     font-size: 1.6vw;
 }
 
@@ -41,15 +41,15 @@ body {
 }
 
 .navbar .navdiv .cart:hover {
-    color: rgb(207, 137, 44);
+    color: #3CA6A6;
 }
 
 .navbar .navdiv .login:hover {
-    color: rgb(207, 137, 44);
+    color: #3CA6A6;
 }
 
 .navbar a {
-    color: #f2f2f2;
+    color: #F2E3D5;
     padding: 2vw;
     text-decoration: none;
     font-weight: bolder;
@@ -67,11 +67,11 @@ body {
 }
 
 .navbar a:hover {
-    color: rgb(207, 137, 44);
+    color: #3CA6A6;
 }
 
 .navbar a.active {
-    color: rgb(207, 137, 44);
+    color: #3CA6A6;
 }
 
 .contentContainer {
@@ -93,39 +93,38 @@ body {
 }
 
 .aboutbox {
-    background-color: #091972;
+    background-color: #024959;
     height: 70vh;
     width: 50vw;
     margin: 60px;
     padding-left: 20px;
-    box-shadow: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 2px  rgba(0, 0, 0, 0.404);
 }
 
 .aboutbox h1 {
-    color: #ffffff;
+    color: #F2E3D5;
     font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
     justify-content: center;
     text-align: center;
 }
 
 .aboutbox p1 {
-    color: #ffffff;
     font-size: 2vw;
-    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     text-align: center;
 }
 
 .homeimg {
     width: 16vw;
-    height: 16vw; 
+    height: auto; 
     position: absolute;
     mix-blend-mode: normal;
-    border-radius: 50%;
-    background-color: #1d296f;
-    box-shadow: 5px 5px;
+    border-radius: 40px;
+    background-color: #024959;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.531);
 }
 
 #pc1 {
