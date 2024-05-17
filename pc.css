@@ -22,13 +22,13 @@ body {
 .rightborder {
     background-color:#026773 ;
     width: 15vw;
-    height: 180vh;
+    height: 150vh;
 }
 
 .pccontainerLeft,
 .pccontainerRight {
     display: block;
-    height: 156vh;
+    height: 140vh;
     width: 35vw;
 }
 
