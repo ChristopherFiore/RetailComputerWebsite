@@ -63,7 +63,22 @@ body {
     justify-content: center;
 }
 
-#pcImage1 {
+.stats {
+    background-color: #b2b229;
+    width: 100%;
+    height: 74%;
+    position: absolute;
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+#stats1, #stats2, #stats3, #stats4, #stats5, #stats6 {
+    height: 100%;
+    width: 100%;
+}
+
+#pcImage1, #pcImage2, #pcImage3, #pcImage4, #pcImage5, #pcImage6 {
     position: absolute;
     width: 190px;
     top: 21%;

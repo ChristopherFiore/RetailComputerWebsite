@@ -11,11 +11,21 @@ function UpdateCountDisplay() {
 }
 
 // ---FUNCTIONAILTY WHEN ADDING ITEM TO CART---
-function ChangePcBoxClass() {
-    document.getElementById("pcImage1").src = "images/addedToCart.png";
+function ChangePcBoxClass(idOfPc) {
+    document.getElementById(idOfPc).src = "images/addedToCart.png";
     // Keep here for 2 seconds
-    setTimeout(() => { document.getElementById("pcImage1").src = "images/pcImage.png";
- }, 2000)
+    setTimeout(() => { document.getElementById(idOfPc).src = "images/pcImage.png";
+ }, 1500)
+}
+
+// ---HOVERING OVER PC FOR STATS---
+function DisplayStats(stat, pcImage) {
+    document.getElementById(stat).src = "images/pcSpecs.png";
+    document.getElementById(pcImage).style.opacity = "0.0";
+}
+function RegularDisplay(stat, pcImage) {
+    document.getElementById(stat).src = "images/backgroundPic.png";
+    document.getElementById(pcImage).style.opacity = "1.0";
 }
 
 // ---CHANGING IMAGE TO GIF---
