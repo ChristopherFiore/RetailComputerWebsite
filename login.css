@@ -16,26 +16,67 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
+    flex-direction: column;
 }
 
 .topLoginBox {
-    height: 40%;
+    height: 35%;
     width: 30%;
-    top: 17%;
+    top: 15%;
     position: absolute;
     background-color: #3CA6A6;
     min-width: 300px;
-    box-shadow: 0px 0px 8px 2px  rgba(0, 0, 0, 0.404);
+    box-shadow: 0px 0px 4px 1px  rgba(0, 0, 0, 0.404);
     border-radius: 20px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#labelMain {
+    position: absolute;
+    top: 14%;
+    left: 39%;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#facebookImg {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: 45%;
+    border-radius: 6px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.223);
+}
+#facebookImg:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+#googleImg {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 70%;
+    left: 20%;
+    border-radius: 6px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.205);
+}
+#googleImg:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
 }
 
 .outsideLogin {
     position: absolute;
     width: 30%;
     height: 40%;
+    top: 50%;
     background-color: #024959;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 0px 8px 2px  rgba(0, 0, 0, 0.404);
+    box-shadow: 0px 0px 4px 1px  rgba(0, 0, 0, 0.404);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -101,7 +142,7 @@ body {
 }
 
 #login:hover {
-    box-shadow: inset 10vw 0 0 0 rgb(2, 79, 14);
+    box-shadow: inset 18vw 0 0 0 rgb(2, 79, 14);
     color: white;
     cursor: pointer;
 }

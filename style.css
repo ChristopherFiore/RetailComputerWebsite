@@ -39,8 +39,7 @@ body {
 #loginNav:hover {
     color: #3CA6A6;
 }
-
-#loginNav:active {
+#cartNav:hover {
     color: #3CA6A6;
 }
 
@@ -117,7 +116,7 @@ body {
 
 .aboutbox p1 {
     font-size: 20px;
-    color: white;
+    color: #F2E3D5;
     display: inline-block;
     padding-left: 10px;
     padding-bottom: 30px;

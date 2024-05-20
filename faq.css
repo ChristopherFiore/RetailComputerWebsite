@@ -22,13 +22,19 @@ body {
     width: 50vw;
     height: 8vh;
     min-height: 50px;
-    font-size: 1.6vw;
+    font-size: 20px;
     text-align: center;
     justify-content: center;
     font-weight: 700;
     line-height: 50px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    scrollbar-width: thin;
+    padding-left: 2px;
 }
 
 .answerBox {
@@ -37,7 +43,7 @@ body {
     width: 80vw;
     height: 20vh;
     min-height: 140px;
-    border-radius: 0px 20px 20px 20px;
+    border-radius: 0px 10px 10px 10px;
     box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
 }
 
@@ -48,11 +54,12 @@ body {
     width: 64vw;
     height: 12vh;
     min-height: 80px;
-    font-size: 1.6vw;
+    font-size: 20px;
     justify-content: center;
     text-align: center;
     align-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
+    overflow-y: auto;
 }

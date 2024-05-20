@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="cart.css">
     <script src="https://kit.fontawesome.com/a54836cba5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,11 +16,30 @@
                 <li><a href="pcs.html">PC's</a></li>
                 <li><a href="laptops.html">Laptops</a></li>
                 <li><a href="faqs.html">Faq's</a></li>
-                <li><a id="loginNav" class="active" href="login.html">Login</a></li>
-                <li><a class="cart" href="cart.html">Cart</a></li>
+                <li><a id="loginNav" href="login.html">Login</a></li>
+                <li><a id="cartNav" class="cart" style="color: #3CA6A6;" href="cart.html">Cart</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
         </div>
     </nav>
+    <div class="contentContainer">
+        <div class="cartBox">
+            <div class="cartInsideBox">
+                <h1 id="cartHeading">Cart</h1>
+            </div>
+        </div>
+        <div class="infoBox">
+            <div class="shippingBox">
+                <div class="shippingInsideBox">
+                    <h1 id="shippingHeading">Shipping</h1>
+                </div>
+            </div>
+            <div class="paymentBox">
+                <div class="paymentInsideBox">
+                    <h1 id="paymentHeading">Payment</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

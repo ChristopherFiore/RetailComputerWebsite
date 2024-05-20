@@ -17,7 +17,7 @@
                 <li><a class="active" href="laptops.html">Laptops</a></li>
                 <li><a href="faqs.html">Faq's</a></li>
                 <li><a id="loginNav" class="active" href="login.html">Login</a></li>
-                <li><a class="cart" href="cart.html">Cart</a></li>
+                <li><a id="cartNav" class="cart" href="cart.html">Cart</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
         </div>
@@ -30,29 +30,38 @@
             <div id="pc" class="pcsContent" func>
                 <!--LEFT HAND COLUMN OF PC's-->
                 <div id="pcLeft" class="pccontainerLeft">
-                    <div class="pcbox">
+                    <div id="pcBox1" class="pcbox">
                         <div class="pcnamebox">Workstation</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart" onclick="IncrementCartCount()">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage1')">
                         </div>
                         <div class="pcprice">$1000</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage1" src="images/laptopImage.png" onmouseenter="DisplayStats('stats1', 'laptopImage1')">
+                        <div class="stats" onmouseenter="DisplayStats('stats1', 'laptopImage1')" onmouseleave="RegularDisplay('stats1', 'laptopImage1')">
+                            <img id="stats1" src="images/backgroundPic.png">
+                        </div>
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Student</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage2')">
                         </div>
                         <div class="pcprice">$1200</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage2" src="images/laptopImage.png" onmouseenter="DisplayStats('stats2', 'laptopImage2')">
+                        <div class="stats" onmouseenter="DisplayStats('stats2', 'laptopImage2')" onmouseleave="RegularDisplay('stats2', 'laptopImage2')">
+                            <img id="stats2" src="images/backgroundPic.png">
+                        </div>
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">General</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage3')">
                         </div>
                         <div class="pcprice">$900</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage3" src="images/laptopImage.png" onmouseenter="DisplayStats('stats3', 'laptopImage3')">
+                        <div class="stats" onmouseenter="DisplayStats('stats3', 'laptopImage3')" onmouseleave="RegularDisplay('stats3', 'laptopImage3')">
+                            <img id="stats3" src="images/backgroundPic.png">
+                        </div>
                     </div>
                 </div>
                 <!-- RIGHT HAND COLUMN OF PC's-->
@@ -60,26 +69,35 @@
                     <div class="pcbox">
                         <div class="pcnamebox">General Office Use</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage4')">
                         </div>
                         <div class="pcprice">$970</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage4" src="images/laptopImage.png" onmouseenter="DisplayStats('stats4', 'laptopImage4')">
+                        <div class="stats" onmouseenter="DisplayStats('stats4', 'laptopImage4')" onmouseleave="RegularDisplay('stats4', 'laptopImage4')">
+                            <img id="stats4" src="images/backgroundPic.png">
+                        </div>
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Famliy Computer</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage5')">
                         </div>
                         <div class="pcprice">$1100</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage5" src="images/laptopImage.png" onmouseenter="DisplayStats('stats5', 'laptopImage5')">
+                        <div class="stats" onmouseenter="DisplayStats('stats5', 'laptopImage5')" onmouseleave="RegularDisplay('stats5', 'laptopImage5')">
+                            <img id="stats5" src="images/backgroundPic.png">
+                        </div>
                     </div>
                     <div class="pcbox">
                         <div class="pcnamebox">Elite Gaming</div>
                         <div class="addtocartbutton">
-                            <input type="button" value="Add to Cart">
+                            <input type="button" value="Add to Cart" onclick="ChangeLaptopBoxClass('laptopImage6')">
                         </div>
                         <div class="pcprice">$1800</div>
-                        <img id="laptopImage1" src="images/laptopImage.png">
+                        <img id="laptopImage6" src="images/laptopImage.png" onmouseenter="DisplayStats('stats6', 'laptopImage6')">
+                        <div class="stats" onmouseenter="DisplayStats('stats6', 'laptopImage6')" onmouseleave="RegularDisplay('stats6', 'laptopImage6')">
+                            <img id="stats6" src="images/backgroundPic.png">
+                        </div>
                     </div>
                 </div>
                 </div>

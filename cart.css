@@ -1,0 +1,116 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #F2E3D5;
+}
+
+.contentContainer {
+    display: flex;
+    height: 93vh;
+    width: 100vw;
+}
+
+.cartBox {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.infoBox {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.shippingBox {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.paymentBox {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.cartInsideBox {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    background-color: #024959;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.25); 
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.shippingInsideBox {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #024959;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.25); 
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.paymentInsideBox {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #024959;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.25); 
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+#cartHeading {
+    top: 1.5%;
+    position: absolute;
+    font-size: 25px;
+}
+
+#shippingHeading {
+    top: 3%;
+    position: absolute;
+    font-size: 25px;
+}
+
+#paymentHeading {
+    top: 3%;
+    position: absolute;
+    font-size: 25px;
+}
