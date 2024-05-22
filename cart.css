@@ -182,3 +182,31 @@ body {
     background-color: red;
     cursor: pointer;
 }
+
+#appleImage {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    border-radius: 5px;
+    top: 80%;
+    left: 10%;
+}
+
+#appleImage:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+#paypalImage {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    border-radius: 5px;
+    top: 80%;
+    left: 31%;
+}
+
+#paypalImage:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}

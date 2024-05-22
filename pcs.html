@@ -20,6 +20,7 @@
                 <li><a id="cartNav" class="cart" href="cart.html">Cart</a></li>
                 <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
             </ul>
+            <div id="counter"></div>
         </div>
     </nav>
     <div class="content_container">
@@ -32,7 +33,7 @@
                 <div id="pcLeft" class="pccontainerLeft">
                     <div id="pcBox1" class="pcbox">
                         <div class="pcnamebox">Workstation</div>
-                        <div class="addtocartbutton">
+                        <div class="addtocartbutton" onclick="IncrementCartCount()">
                             <input type="button" value="Add to Cart" onclick="ChangePcBoxClass('pcImage1')">
                         </div>
                         <div class="pcprice">$1000</div>

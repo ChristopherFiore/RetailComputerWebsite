@@ -7,6 +7,10 @@ body {
     color: #F2E3D5;
 }
 
+#contactWord {
+    color: #3CA6A6;
+}
+
 .faqClassContainer {
     position: relative;
 }
@@ -53,7 +57,7 @@ body {
 }
 
 .informationBox {
-    background-color: #3CA6A6;
+    background-color: #024959;
     margin: 4vw;
     margin-left: 18vw;
     width: 64vw;

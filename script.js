@@ -1,4 +1,4 @@
-// ---COUNT WHEN ADDING TO CART--
+// ---COUNT WHEN ADDING TO CART--                           (Displaying a count of the number of items in the cart JS feature)
 var itemCount = 0;
 
 function IncrementCartCount() {
@@ -10,7 +10,7 @@ function UpdateCountDisplay() {
     document.getElementById("counter").innerHTML = itemCount;
 }
 
-// ---FUNCTIONAILTY WHEN ADDING ITEM TO CART---              (Displaying Count on cart JS feature)
+// ---FUNCTIONAILTY WHEN ADDING ITEM TO CART---              (Displaying added to cart JS feature)
 function ChangePcBoxClass(idOfPc) {
     document.getElementById(idOfPc).src = "images/addedToCart.png";
     // Keep here for 2 seconds
