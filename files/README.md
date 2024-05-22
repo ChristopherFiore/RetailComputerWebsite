@@ -38,15 +38,18 @@ implement the specific styling for the contact page.
 
 ### Javascript features
 
-1) Feature which swaps out the images and changes the opacity of objects to
+1) Feature for when adding items to the cart. My website will display a count
+   next to the cart icon in the top right hand corner displaying how many
+   items have been added to the cart.
+2) Feature which swaps out the images and changes the opacity of objects to
    display stats when hovering over the various PC's or Laptops
-2) Feature which displays to the user when an item has been added to the cart.
+3) Feature which displays to the user when an item has been added to the cart.
    simply add anything to the cart to experience this feature.
-3) Animated gifs when hovering over the computer on the index.html. stationary
+4) Animated gifs when hovering over the computer on the index.html. stationary
    image when not hovered over which turns into an animated gif of the RGB lights
    on the computer lighting up and spinning when hovering over it. (Link to the
    PC page from this gif too).
-4) Event listening for the website when resizing the width of the website. This
+5) Event listening for the website when resizing the width of the website. This
    listener has been carefully desgined so that it will work upon directly rezising
    into a smaller frame or by dragging it smaller. Either option will produce a
    very crisp and clean display.
@@ -56,7 +59,7 @@ implement the specific styling for the contact page.
 All my webpages have the responsive ability to be used on a phone or tablet device
 resizing all pages into the phone view results in a nice adaptive, easy to use
 display. The most prolific of this being the adaptive ability of my PC's and 
-Laptops page which upon resizing will drop teh two columns into a single column
+Laptops page which upon resizing will drop the two columns into a single column
 of items, making it very accessible to those not accessing the website on a 
 computer.
 

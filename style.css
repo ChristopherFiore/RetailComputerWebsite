@@ -10,13 +10,10 @@
 }
 
 #counter {
-    position: absolute;
     color: orange;
     font-size: 20px;
     width: 60px;
     height: 20px;
-    top: 1vw;
-    left: 92%;
 }
 
 body {
