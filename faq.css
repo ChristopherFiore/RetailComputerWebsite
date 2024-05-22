@@ -20,7 +20,6 @@ body {
     background-color: #3CA6A6;
     margin: 0px;
     width: 50vw;
-    height: 8vh;
     min-height: 50px;
     font-size: 20px;
     text-align: center;
@@ -45,6 +44,12 @@ body {
     min-height: 140px;
     border-radius: 0px 10px 10px 10px;
     box-shadow: 0px 0px 6px 1px  rgba(0, 0, 0, 0.404);
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding-left: 10px;
 }
 
 .informationBox {
